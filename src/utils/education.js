@@ -8,14 +8,14 @@ const education = [
     },
     {
         id: 2,
-        instituteName: "Maharishi Vidya Mandir",
+        instituteName: "Maharishi Vidya Mandir IV",
         studyTime: "2013 - 2015",
         courseName: "Higher Secondary",
         grade: "75%"
     },
     {
         id: 3,
-        instituteName: "Maharishi Vidya Mandir",
+        instituteName: "Maharishi Vidya Mandir IV",
         studyTime: "2013",
         courseName: "Secondary School Examination",
         grade: "8.8 cgpa"

@@ -3,14 +3,23 @@ import skills from '../utils/skills'
 import SkillItems from './SkillItems'
 import Experience from './Experience'
 import experience from '../utils/experience'
+import education from '../utils/education'
+import Education from './Education'
 
 const About = () => {
     return (
         <div className="container mx-auto my-7">
+            <p className='text-center text-lg font-semibold mt-3 mb-3'>Hi! I am Anshu Patel. I am a Full Stack developer with 2+ years of experience. Following are all the details about me.</p>
+            <p className="text-center text-3xl text-blue-600/75 font-bold">Education</p>
+            <div className="grid grid-cols-1 m-10 border-2 border-gray-400 rounded-md border-solid divide-y-2">
+                {education && education.map((institute) => (
+                    <Education institute={institute} key={institute.id} />
+                ))}
+            </div>
             <p className="text-center text-3xl text-blue-600/75 font-bold">Experience</p>
-            <div class="grid grid-cols-1 divide-y">
-            {experience && experience.map((job) => (
-                    <Experience job={job} key={job.id} />
+            <div className="grid grid-cols-1 m-10">
+                {experience && experience.map((job) => (
+                    <Experience job={job} key={job.jobId} />
                 ))}
             </div>
             <p className="text-center text-3xl text-blue-600/75 font-bold">Skills</p>
