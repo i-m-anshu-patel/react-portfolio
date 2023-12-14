@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = ({ job }) => {
     return (
-        <div className="flex flex-col border border-gray-400 p-5 mt-3">
+        <div className="flex flex-col border border-gray-400 p-5 mt-3 hover:border-2 hover:border-yellow-600">
             <h3 className="text-xl font-bold">{job.jobTitle}</h3>
             <h5 className="text-lg font-semibold">{job.companyName}</h5>
             <time className="text-xs tracki uppercase dark:text-gray-400">{job.duration}</time>
