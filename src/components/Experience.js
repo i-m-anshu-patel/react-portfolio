@@ -13,7 +13,7 @@ const Experience = ({ job }) => {
             <h6 className="text-md font-semibold mt-2 mb-2">Skills:</h6>
             <div className='flex  justify-start'>
             {job.skillsUsed && job.skillsUsed.map((skill) => (
-                <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 px-3 border border-blue-500 hover:border-transparent rounded-full ml-2">
+                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 px-3 border border-blue-500 hover:border-transparent rounded-full ml-2">
                 {skill}
                 </button>
             ))}
