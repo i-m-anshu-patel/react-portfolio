@@ -7,8 +7,8 @@ const Home = () => {
         <>
             <div className="grid grid-cols-2 gap-4 mx-8">
                 <div className='mx-auto my-auto'>
-                    <p className="text-4xl font-bold">Hi! I am Anshu Patel. I am a &nbsp; </p>
-                    <p className="text-4xl  text-blue-500 font-extrabold">
+                    <span className="text-4xl font-bold">Hi! I am Anshu Patel. I am a &nbsp; </span>
+                    <span className="text-4xl  text-blue-500 font-extrabold">
                         <Typewriter
                             options={{
                                 strings: ['Full Stack Developer', 'Backend Developer', 'Frontend Developer'],
@@ -16,7 +16,7 @@ const Home = () => {
                                 loop: true,
                             }}
                         />
-                    </p>
+                    </span>
 
                 </div>
                 <div className='mt-7 ml-20'>

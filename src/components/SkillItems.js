@@ -10,10 +10,10 @@ const SkillItems = ({ skill }) => {
             </div>
             <div className="w-2/3 mr-3 pt-2">
                 <div className="mb-2 flex items-center justify-between gap-4">
-                    <Typography color="blue-gray" variant="h6">
+                    <Typography component={'span'} color="blue-gray" variant="h6">
                     {skill.name}
                     </Typography>
-                    <Typography color="blue-gray" variant="h6">
+                    <Typography component={'span'} color="blue-gray" variant="h6">
                         {skill.ratings} rating
                     </Typography>
                 </div>

@@ -8,12 +8,12 @@ const Experience = ({ job }) => {
             <time className="text-xs tracki uppercase dark:text-gray-400">{job.duration}</time>
             <h6 className="text-md font-semibold">Acheivements:</h6>
             {job.acheivements && job.acheivements.map((acheivement, index) => (
-                <p className='pl-2'>{index + 1}. {acheivement}</p>
+                <p className='pl-2' key={index}>{index + 1}. {acheivement}</p>
             ))}
             <h6 className="text-md font-semibold mt-2 mb-2">Skills:</h6>
             <div className='flex  justify-start'>
-            {job.skillsUsed && job.skillsUsed.map((skill) => (
-                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 px-3 border border-blue-500 hover:border-transparent rounded-full ml-2">
+            {job.skillsUsed && job.skillsUsed.map((skill, index) => (
+                <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-1 px-3 border border-blue-500 hover:border-transparent rounded-full ml-2" key={index}>
                 {skill}
                 </button>
             ))}

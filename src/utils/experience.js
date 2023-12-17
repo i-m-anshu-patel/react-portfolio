@@ -1,6 +1,6 @@
 const experience = [
     {
-        jobId: 1,
+        id: 1,
         companyName : "EasyEcom",
         jobTitle : "Software Development Engineer - 1",
         duration : "Dec 2022 - Present",
@@ -12,7 +12,7 @@ const experience = [
         ]
     },
     {
-        jobId: 2,
+        id: 2,
         companyName : "Madras Mandi",
         jobTitle : "Software Engineer",
         duration : "Aug 2022 - Nov 2022",
@@ -22,7 +22,7 @@ const experience = [
         ]
     },
     {
-        jobId: 3,
+        id: 3,
         companyName : "Omniware Technologies Pvt Ltd",
         jobTitle : "Software Engineer",
         duration : "Dec 2021 - Jul 2022",

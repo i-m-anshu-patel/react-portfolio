@@ -82,6 +82,12 @@ const skills = [
         "name": "Data Structures & Algorithms",
         "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/DSA_Logo.png",
         'ratings': 4.2
+    },
+    {
+        "id": 15,
+        "name": "Python",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/2048px-Python.svg.png",
+        'ratings': 3.0
     }
 
 ];

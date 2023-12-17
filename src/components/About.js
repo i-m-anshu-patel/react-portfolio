@@ -13,7 +13,7 @@ const About = () => {
             <p className="text-center text-3xl text-blue-600/75 font-bold">Experience</p>
             <div className="grid grid-cols-1 m-10">
                 {experience && experience.map((job) => (
-                    <Experience job={job} key={job.jobId} />
+                    <Experience job={job} key={job.id} />
                 ))}
             </div>
             <p className="text-center text-3xl text-blue-600/75 font-bold mt-4">Education</p>
