@@ -28,7 +28,9 @@ const experience = [
         duration : "Dec 2021 - Jul 2022",
         skillsUsed : ['PHP', 'JavaScript', 'Laravel', 'Git', 'React', 'MySQL'],
         acheivements : [
-            'Built payment platform that provides payment processing by white labelling various payment technologies. Integrated payment gateways'
+            'Built payment platform that provides payment processing by white labelling various payment technologies. Integrated payment gateways',
+            'Collaborated with cross-functional team to define features and build powerful and easy-to-use products and customer-facing workflow tools.',
+            'Researched emerging technologies for potential implementation in current products.'
         ]
     }
 ];
